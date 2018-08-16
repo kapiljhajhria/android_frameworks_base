@@ -4175,7 +4175,7 @@ public final class Settings {
          * Whether to display qs tile titles in the qs panel
          * @hide
          */
-        public static final String QS_TILE_TITLE_VISIBILITY = "qs_tile_title_visibility";
+        public static final String QS_TILE_HIDE_TITLE = "qs_tile_hide_title";
 
 
         /**
@@ -4355,7 +4355,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(WEATHER_LOCKSCREEN_UNIT);
             PRIVATE_SETTINGS.add(QS_LAYOUT_COLUMNS);
             PRIVATE_SETTINGS.add(QS_LAYOUT_COLUMNS_LANDSCAPE);
-            PRIVATE_SETTINGS.add(QS_TILE_TITLE_VISIBILITY);
+            PRIVATE_SETTINGS.add(QS_TILE_HIDE_TITLE);
         }
 
         /**
