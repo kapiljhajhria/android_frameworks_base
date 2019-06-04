@@ -141,7 +141,7 @@ public class MobileSignalController extends SignalController<
 
         void observe() {
             ContentResolver resolver = mContext.getContentResolver();
-            Uri uri = Settings.System.getUriFor(Settings.System.ROAMING_INDICATOR_ICON);
+   //         Uri uri = Settings.System.getUriFor(Settings.System.ROAMING_INDICATOR_ICON);
   //          resolver.registerContentObserver(uri, false,
   //                 this, UserHandle.USER_ALL);
             resolver.registerContentObserver(
